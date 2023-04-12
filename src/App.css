@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-flow: wrap;
+
+    gap: 15px;
+}
+.post{
+    width: 200px;
+    height: 300px;
+}
+.post > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.single_post{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+}
